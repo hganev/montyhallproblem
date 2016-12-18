@@ -30,7 +30,6 @@ class GamesController < ApplicationController
     @switch_win_percentage = (Game.get_switching_success_rate(@all_games_count) * 100).round(3)
     @stay_win_percentage = (Game.get_staying_success_rate(@all_games_count) * 100).round(3)
     @result_text_class = @game.won ? "bg-success" : "bg-danger"
-
     @game_result_msg = print_game_result
 
     respond_to do |format|
