@@ -1,5 +1,7 @@
 # Monty Hall Problem 
 
+Wikipedia: https://en.wikipedia.org/wiki/Monty_Hall_problem
+
 The frontend will be in HTML/JS and will show 3 closed doors. In each new visit to the webpage, the items in the doors are randomly shuffled, 2 are goats, 1 is a car.
 
 There are two steps.
