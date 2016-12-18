@@ -1,0 +1,15 @@
+var open_second_goat_door = '<%= @second_goat %>'
+var goat_img_path = '<%= asset_path 'goat.png' %>'
+$('#door' + open_second_goat_door).attr('src', goat_img_path);
+
+var open_car_door = '<%= @car %>'
+var car_img_path = '<%= asset_path 'car.png' %>'
+$('#door' + open_car_door).attr('src', car_img_path);
+
+$('a.play-button').removeAttr("href");
+
+$('div#game_result').append('<p><h1 class=<%= @result_text_class%>><%= @game_result_msg %></h1></p>');
+$('div#game_result').append('<p><h3 class="bg-info">All games count: <%= @all_games_count.to_i %></h3>');
+$('div#game_result').append('<h3 class="bg-info">SWITCH win percentage: <%= @switch_win_percentage %> %</h3>');
+$('div#game_result').append('<h3 class="bg-info">STAY win percentage: <%= @stay_win_percentage %> %</h3></p>');
+

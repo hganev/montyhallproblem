@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  switched: false
+  won: false
+
+two:
+  switched: false
+  won: false

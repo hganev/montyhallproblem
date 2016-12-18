@@ -1,0 +1,17 @@
+var open_door = '<%= @open_door %>'
+var goat_img_path = '<%= asset_path 'goat.png' %>'
+$('#door' + open_door).attr('src', goat_img_path);
+
+$('a.door-link').removeAttr("href");
+
+if ($('div.sidebar-nav').css('display') === 'none') {
+  $('div.sidebar-nav').toggle();
+}
+
+if ($('div#new-game').css('display') === 'none') {
+  $('div#new-game').toggle();
+}
+
+
+
+ 
