@@ -16,4 +16,5 @@ The data of the location of the car/goats is only known by the backend, as it is
 
 
 * The solution was implemented with Ruby on Rails framework. The UI is a simple HTML/JS, no fancy frameworks
+* The solution was deployed on Heroku. Please follow the URL: https://hidden-brook-84746.herokuapp.com 
 
